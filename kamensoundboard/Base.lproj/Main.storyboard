@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,123 +17,109 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyI-5Y-o0G">
-                                <rect key="frame" x="16" y="20" width="80" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="KamenRide">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="76f-6A-nO8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZb-fg-Ug8">
-                                <rect key="frame" x="104" y="20" width="80" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="AttackRide">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="playAttackRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GiJ-rf-LCN"/>
-                                    <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ewa-Q3-B0b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM7-Jy-AEg">
-                                <rect key="frame" x="16" y="85" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM7-Jy-AEg">
+                                <rect key="frame" x="24" y="28" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Kuuga" image="kamen_rider_kuuga_symbol_by_touchboyj_hero-d5mf893">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pDO-HZ-1af"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oar-RG-Teb">
-                                <rect key="frame" x="104" y="150" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oar-RG-Teb">
+                                <rect key="frame" x="164" y="219" width="132" height="182"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Kabuto" image="kamen_rider_kabuto_symbol_by_touchboyj_hero-d5nw1l9">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ch0-0j-pg5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80C-hL-PhB">
-                                <rect key="frame" x="16" y="215" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80C-hL-PhB">
+                                <rect key="frame" x="24" y="409" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Ryuki" image="kamen_rider_ryuki_symbol_by_touchboyj_hero-d5nspoi">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BDs-ox-oX0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmO-bS-WXH">
-                                <rect key="frame" x="192" y="150" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmO-bS-WXH">
+                                <rect key="frame" x="304" y="219" width="132" height="182"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Hibiki" image="kamen_rider_hibiki_symbol_by_touchboyj_hero-d5nspwe">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6pD-aV-aqK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0r-Ty-U70">
-                                <rect key="frame" x="192" y="85" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0r-Ty-U70">
+                                <rect key="frame" x="304" y="28" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Faiz" image="kamen_rider_faiz_symbol_by_touchboyj_hero-d5nspqf">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JZo-Jv-RH9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO0-FI-hZx">
-                                <rect key="frame" x="280" y="150" width="81" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO0-FI-hZx">
+                                <rect key="frame" x="444" y="219" width="132" height="182"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Decade" image="kamen_rider_decade_symbol_by_touchboyj_hero-d5nw1oz">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tTm-Lw-kfa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUJ-px-7Tr">
-                                <rect key="frame" x="192" y="215" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUJ-px-7Tr">
+                                <rect key="frame" x="304" y="409" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Deno" image="kamen_rider_den_o_symbol_by_touchboyj_hero-d5nw1mm">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DE5-tl-tLT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqy-Ro-6k6">
-                                <rect key="frame" x="104" y="215" width="80" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqy-Ro-6k6">
+                                <rect key="frame" x="164" y="409" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <state key="normal" title="Kiva" image="kamen_rider_kiva_symbol_by_touchboyj_hero-d5nw1nt">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ehQ-bY-s00"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6K-XX-Crb">
-                                <rect key="frame" x="16" y="150" width="80" height="57"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Agito" image="kamen_rider_agito_symbol_by_touchboyj_hero-d5mihxx"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6K-XX-Crb">
+                                <rect key="frame" x="24" y="219" width="132" height="182"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="1"/>
+                                <state key="normal" title="Agito" image="kamen_rider_agito_symbol_by_touchboyj_hero-d5mihxx">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GEY-cD-F7Z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmS-U5-HXD">
-                                <rect key="frame" x="104" y="85" width="80" height="57"/>
-                                <state key="normal" title="Blade" image="kamen_rider_blade_symbol_by_touchboyj_hero-d5nspu3-2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ve7-3i-ajo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41C-WV-tIm">
-                                <rect key="frame" x="192" y="20" width="80" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41C-WV-tIm">
+                                <rect key="frame" x="444" y="409" width="132" height="183"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="FinalRide">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.0" blue="0.60197368419999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -140,8 +127,85 @@
                                     <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wX2-vT-Hm1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmS-U5-HXD">
+                                <rect key="frame" x="164" y="28" width="132" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="Blade" image="kamen_rider_blade_symbol_by_touchboyj_hero-d5nspu3-2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ve7-3i-ajo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyI-5Y-o0G">
+                                <rect key="frame" x="444" y="28" width="132" height="183"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="KamenRide">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.60197368421052633" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playKamenRide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="76f-6A-nO8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="80C-hL-PhB" secondAttribute="height" id="09l-Ut-8Pp"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="80C-hL-PhB" secondAttribute="bottom" constant="8" id="2K4-6Z-npr"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="PmS-U5-HXD" secondAttribute="height" id="4Wr-YQ-HpA"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="GyI-5Y-o0G" secondAttribute="width" id="4l6-M3-GNb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GyI-5Y-o0G" secondAttribute="trailing" constant="8" id="54n-vh-WoM"/>
+                            <constraint firstItem="PmS-U5-HXD" firstAttribute="leading" secondItem="lM7-Jy-AEg" secondAttribute="trailing" constant="8" id="7FP-4Z-t96"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="41C-WV-tIm" secondAttribute="bottom" constant="8" id="7Jh-7T-mQx"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="Oar-RG-Teb" secondAttribute="width" id="81r-aY-Y9E"/>
+                            <constraint firstItem="80C-hL-PhB" firstAttribute="top" secondItem="Z6K-XX-Crb" secondAttribute="bottom" constant="8" id="A9A-fd-KSI"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="ZUJ-px-7Tr" secondAttribute="width" id="Abl-3c-vSh"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="Vqy-Ro-6k6" secondAttribute="height" id="Agw-fT-NF4"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="top" secondItem="L0r-Ty-U70" secondAttribute="bottom" constant="8" id="Apm-Ku-bXN"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="GyI-5Y-o0G" secondAttribute="height" id="Bfu-HE-Jxm"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Vqy-Ro-6k6" secondAttribute="bottom" constant="8" id="Bur-FS-VZC"/>
+                            <constraint firstItem="FO0-FI-hZx" firstAttribute="leading" secondItem="RmO-bS-WXH" secondAttribute="trailing" constant="8" id="CcD-ZV-u7g"/>
+                            <constraint firstItem="lM7-Jy-AEg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Cs6-VG-jrB"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="L0r-Ty-U70" secondAttribute="width" id="Cyg-qS-QMF"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="Z6K-XX-Crb" secondAttribute="width" id="D8F-Nq-Wk3"/>
+                            <constraint firstItem="41C-WV-tIm" firstAttribute="top" secondItem="FO0-FI-hZx" secondAttribute="bottom" constant="8" id="Dca-FE-t5N"/>
+                            <constraint firstItem="ZUJ-px-7Tr" firstAttribute="leading" secondItem="Vqy-Ro-6k6" secondAttribute="trailing" constant="8" id="EIT-qc-eX8"/>
+                            <constraint firstItem="Oar-RG-Teb" firstAttribute="top" secondItem="PmS-U5-HXD" secondAttribute="bottom" constant="8" id="Fie-VP-v4e"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="80C-hL-PhB" secondAttribute="width" id="GKV-mj-8x3"/>
+                            <constraint firstItem="41C-WV-tIm" firstAttribute="leading" secondItem="ZUJ-px-7Tr" secondAttribute="trailing" constant="8" id="GMD-ja-HfA"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="lM7-Jy-AEg" secondAttribute="height" id="HFt-VD-tac"/>
+                            <constraint firstItem="ZUJ-px-7Tr" firstAttribute="top" secondItem="RmO-bS-WXH" secondAttribute="bottom" constant="8" id="I5W-8r-w4T"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="leading" secondItem="Oar-RG-Teb" secondAttribute="trailing" constant="8" id="Iiw-jv-tMU"/>
+                            <constraint firstItem="Oar-RG-Teb" firstAttribute="leading" secondItem="Z6K-XX-Crb" secondAttribute="trailing" constant="8" id="K6W-nv-EqK"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="lM7-Jy-AEg" secondAttribute="width" id="N85-Kc-Pnv"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="PmS-U5-HXD" secondAttribute="width" id="Nb3-Rg-CGE"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="Z6K-XX-Crb" secondAttribute="height" id="Sbf-1y-VrP"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="Oar-RG-Teb" secondAttribute="height" id="UsE-q5-O9m"/>
+                            <constraint firstItem="Vqy-Ro-6k6" firstAttribute="leading" secondItem="80C-hL-PhB" secondAttribute="trailing" constant="8" id="Vcx-Wn-ttg"/>
+                            <constraint firstItem="L0r-Ty-U70" firstAttribute="leading" secondItem="PmS-U5-HXD" secondAttribute="trailing" constant="8" id="VoL-eT-0m9"/>
+                            <constraint firstItem="GyI-5Y-o0G" firstAttribute="leading" secondItem="L0r-Ty-U70" secondAttribute="trailing" constant="8" id="Yfs-Uw-5Rx"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="41C-WV-tIm" secondAttribute="width" id="YnN-eP-aTP"/>
+                            <constraint firstItem="FO0-FI-hZx" firstAttribute="top" secondItem="GyI-5Y-o0G" secondAttribute="bottom" constant="8" id="bY0-gL-3ND"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="41C-WV-tIm" secondAttribute="trailing" constant="8" id="cO6-2v-sar"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FO0-FI-hZx" secondAttribute="trailing" constant="8" id="eYP-fg-INL"/>
+                            <constraint firstItem="80C-hL-PhB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="ecb-4p-iHQ"/>
+                            <constraint firstItem="L0r-Ty-U70" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="gED-0t-hSH"/>
+                            <constraint firstItem="Vqy-Ro-6k6" firstAttribute="top" secondItem="Oar-RG-Teb" secondAttribute="bottom" constant="8" id="gY9-kX-bQ2"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="Vqy-Ro-6k6" secondAttribute="width" id="gdi-vt-iAQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ZUJ-px-7Tr" secondAttribute="bottom" constant="8" id="gsa-VG-wIz"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="ZUJ-px-7Tr" secondAttribute="height" id="hGN-PM-QuI"/>
+                            <constraint firstItem="PmS-U5-HXD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="hZL-it-679"/>
+                            <constraint firstItem="Z6K-XX-Crb" firstAttribute="top" secondItem="lM7-Jy-AEg" secondAttribute="bottom" constant="8" id="hwh-fk-TMB"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="FO0-FI-hZx" secondAttribute="height" id="jRb-R2-XK9"/>
+                            <constraint firstItem="GyI-5Y-o0G" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="lJ3-Lg-G2f"/>
+                            <constraint firstItem="Z6K-XX-Crb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="lf0-QR-HlP"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="width" secondItem="FO0-FI-hZx" secondAttribute="width" id="oym-eW-nh1"/>
+                            <constraint firstItem="lM7-Jy-AEg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="scx-9L-fvk"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="L0r-Ty-U70" secondAttribute="height" id="ux0-XQ-ouS"/>
+                            <constraint firstItem="RmO-bS-WXH" firstAttribute="height" secondItem="41C-WV-tIm" secondAttribute="height" id="wq7-OI-Xx2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

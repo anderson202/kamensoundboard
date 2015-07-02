@@ -16,6 +16,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var finalForm = [String]()
     var kamenRide = false
     var currentRider = ""
+
     
     
     @IBAction func playKamenRide(sender: UIButton) {
@@ -29,7 +30,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             kamenRide = true
         }
 
-        if finalRidePressed && sender.currentTitle != "FinalRide" && sender.currentTitle != "KamenRide" && sender.currentTitle != "AttackRide"{
+        if finalRidePressed && sender.currentTitle != "FinalRide" && sender.currentTitle != "KamenRide"{
             soundToPlay = sender.currentTitle! + "2"
             finalRidePressed = false
         }else{
@@ -53,6 +54,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.blackColor()
         
         
     }
@@ -65,7 +67,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
         var decadeForm = ["Kuuga", "Agito", "Ryuki", "Faiz", "Blade", "Hibiki", "Kabuto", "Deno", "Kiva"]
         
-        if finalForm.last == "KamenRide" || finalForm.last == "AttackRide" || finalForm.last == "FinalRide"{
+        if finalForm.last == "KamenRide" || finalForm.last == "FinalRide"{
             var currentSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("standingby", ofType: "wav")!)
             audioPlayer = AVAudioPlayer(contentsOfURL: currentSound, error: nil)
             audioPlayer.numberOfLoops = -1

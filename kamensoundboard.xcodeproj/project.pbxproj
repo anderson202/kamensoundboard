@@ -25,7 +25,6 @@
 		711C1D5A1B431F7D00E53A3F /* KamenRide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D591B431F7D00E53A3F /* KamenRide.wav */; };
 		711C1D5C1B43213900E53A3F /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D5B1B43213900E53A3F /* start.wav */; };
 		711C1D671B43255100E53A3F /* Agito.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D5D1B43255100E53A3F /* Agito.wav */; };
-		711C1D681B43255100E53A3F /* AttackRide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D5E1B43255100E53A3F /* AttackRide.wav */; };
 		711C1D691B43255100E53A3F /* Blade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D5F1B43255100E53A3F /* Blade.wav */; };
 		711C1D6A1B43255100E53A3F /* Decade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D601B43255100E53A3F /* Decade.wav */; };
 		711C1D6B1B43255100E53A3F /* Deno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 711C1D611B43255100E53A3F /* Deno.wav */; };
@@ -85,7 +84,6 @@
 		711C1D591B431F7D00E53A3F /* KamenRide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = KamenRide.wav; sourceTree = "<group>"; };
 		711C1D5B1B43213900E53A3F /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
 		711C1D5D1B43255100E53A3F /* Agito.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Agito.wav; sourceTree = "<group>"; };
-		711C1D5E1B43255100E53A3F /* AttackRide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AttackRide.wav; sourceTree = "<group>"; };
 		711C1D5F1B43255100E53A3F /* Blade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Blade.wav; sourceTree = "<group>"; };
 		711C1D601B43255100E53A3F /* Decade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Decade.wav; sourceTree = "<group>"; };
 		711C1D611B43255100E53A3F /* Deno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Deno.wav; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 				711C1D731B4325D400E53A3F /* Kuuga.wav */,
 				711C1D711B43256300E53A3F /* FinalRide.wav */,
 				711C1D5D1B43255100E53A3F /* Agito.wav */,
-				711C1D5E1B43255100E53A3F /* AttackRide.wav */,
 				71D677641B4464F000AC905A /* Blade2.wav */,
 				71D677741B4464F900AC905A /* Agito2.wav */,
 				71D677651B4464F000AC905A /* Deno2.wav */,
@@ -332,7 +329,6 @@
 				71D677701B4464F000AC905A /* Kabuto2.wav in Resources */,
 				7101C0D11B44BC070029EF9F /* changeKabuto.wav in Resources */,
 				711C1D721B43256300E53A3F /* FinalRide.wav in Resources */,
-				711C1D681B43255100E53A3F /* AttackRide.wav in Resources */,
 				711C1D6A1B43255100E53A3F /* Decade.wav in Resources */,
 				71D677731B4464F000AC905A /* Ryuki2.wav in Resources */,
 				711C1D761B43261200E53A3F /* Ryuki.wav in Resources */,

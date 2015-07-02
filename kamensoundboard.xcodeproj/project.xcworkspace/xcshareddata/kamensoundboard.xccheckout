@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DDC97A0-6939-40EF-BFBF-E963C4ADD554</string>
+	<key>IDESourceControlProjectName</key>
+	<string>kamensoundboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0BDA866E06B2715FA139F4B11F43404BACEC1127</key>
+		<string>https://github.com/anderson202/kamensoundboard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>kamensoundboard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0BDA866E06B2715FA139F4B11F43404BACEC1127</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anderson202/kamensoundboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0BDA866E06B2715FA139F4B11F43404BACEC1127</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BDA866E06B2715FA139F4B11F43404BACEC1127</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kamensoundboard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
